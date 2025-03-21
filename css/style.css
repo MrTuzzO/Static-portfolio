@@ -8,7 +8,6 @@
 
 /* Custom CSS */
 .logo {
-  font-weight: lighter;
   font-size: 40px;
   font-family: Monoton, cursive;
 }
@@ -196,9 +195,9 @@ b, strong {
   padding-bottom: 0;
 }
 
-.navbar-brand {
+/* .navbar-brand {
   font-weight: bold;
-}
+} */
 
 .navbar-expand-sm .navbar-nav .nav-link {
   padding: 0 20px;
