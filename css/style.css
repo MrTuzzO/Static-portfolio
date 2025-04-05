@@ -484,9 +484,32 @@ footer{
   padding: 10px 10px;
 }
 
-.project .owl-theme .item img{
+.project .owl-theme .item .project-info{
   padding: 100px;
   filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.5));
+}
+
+.project_details{
+  padding: 50px;
+  background-color: rgba(0,0 , 0, .8);
+  position: absolute;
+  width: calc(100% - 200px);
+  height: calc(100% - 200px);
+  opacity: 0;
+}
+.project_details p{
+  color: #fff;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.project_details p b{
+  color: var(--primary-color) ;
+}
+
+.project_details:hover{
+  opacity: 1;
+  transition: all .5s ease;
 }
 
 @media (min-width: 1270px) {
